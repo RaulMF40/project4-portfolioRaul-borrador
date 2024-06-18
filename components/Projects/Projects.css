@@ -1,0 +1,21 @@
+.projects {
+  padding: 1rem;
+}
+
+.projects .project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.projects .project-list .project-item {
+  flex: 1 1 calc(33.333% - 1rem);
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  transition: transform 0.3s;
+}
+
+.projects .project-list .project-item:hover {
+  transform: translateY(-5px);
+}

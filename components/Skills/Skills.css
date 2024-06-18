@@ -1,0 +1,41 @@
+.skills {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.skills h2 {
+  margin-bottom: 10px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap; /* Permite envolver los elementos si no caben en una línea */
+  justify-content: center; /* Centra horizontalmente los elementos */
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li {
+  text-align: center; /* Centra el contenido dentro de cada ítem */
+  margin-bottom: 20px; /* Espacio entre cada habilidad */
+  margin-right: 20px; /* Espacio a la derecha de cada habilidad */
+}
+
+.skills ul li a {
+  text-decoration: none; /* Quita el subrayado del enlace */
+  text-align: center;
+  color: #333; /* Color del texto */
+}
+
+.skills ul li img {
+  width: 80px; /* Ajusta el tamaño del logo */
+  height: 80px;
+  margin-bottom: 10px; /* Espacio entre el logo y el nombre */
+}
+
+.skills ul li span {
+  font-size: 16px; /* Tamaño de fuente del nombre de la habilidad */
+  display: block; /* Coloca el nombre debajo del logo */
+}
